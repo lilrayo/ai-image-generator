@@ -1,0 +1,83 @@
+/* Container for the AI image generator */
+.ai-image-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Belleza, sans-serif;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  
+  /* Header styling */
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  /* Container for image loading section */
+  .img-loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2px;
+  }
+  
+  /* Image wrapper styling */
+  .image {
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+
+  }
+  
+  /* Image styling */
+  .image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .search-box{
+    display: flex;
+    width: 400x;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgb(250, 250, 250);
+  }
+  .search-input{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 35px;
+    margin-right: 35px;
+  }
+  .generate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius:40px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+
+  }
+  
